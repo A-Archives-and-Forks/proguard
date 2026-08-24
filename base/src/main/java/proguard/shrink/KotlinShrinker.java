@@ -249,6 +249,7 @@ public class KotlinShrinker
 
         shrinkAnnotations(kotlinPropertyMetadata.annotations);
         shrinkAnnotations(kotlinPropertyMetadata.backingFieldAnnotations);
+        shrinkAnnotations(kotlinPropertyMetadata.delegateFieldAnnotations);
     }
 
     // Implementations for KotlinFunctionVisitor.
